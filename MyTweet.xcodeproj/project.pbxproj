@@ -23,6 +23,9 @@
 		FF7E5ACD17ACB93E001A4DBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7E5AA817ACB93E001A4DBB /* Foundation.framework */; };
 		FF7E5AD517ACB93E001A4DBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF7E5AD317ACB93E001A4DBB /* InfoPlist.strings */; };
 		FF7E5AD817ACB93E001A4DBB /* MyTweetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7E5AD717ACB93E001A4DBB /* MyTweetTests.m */; };
+		FF7E5AE217ACB967001A4DBB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FF7E5AE117ACB967001A4DBB /* icon.png */; };
+		FF7E5AE417ACBD3E001A4DBB /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7E5AE317ACBD3E001A4DBB /* Social.framework */; };
+		FF7E5AE617ACBD4B001A4DBB /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7E5AE517ACBD4B001A4DBB /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		FF7E5AD417ACB93E001A4DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FF7E5AD617ACB93E001A4DBB /* MyTweetTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTweetTests.h; sourceTree = "<group>"; };
 		FF7E5AD717ACB93E001A4DBB /* MyTweetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTweetTests.m; sourceTree = "<group>"; };
+		FF7E5AE117ACB967001A4DBB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		FF7E5AE317ACBD3E001A4DBB /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		FF7E5AE517ACBD4B001A4DBB /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7E5AE617ACBD4B001A4DBB /* Accounts.framework in Frameworks */,
+				FF7E5AE417ACBD3E001A4DBB /* Social.framework in Frameworks */,
 				FF7E5AA717ACB93E001A4DBB /* UIKit.framework in Frameworks */,
 				FF7E5AA917ACB93E001A4DBB /* Foundation.framework in Frameworks */,
 				FF7E5AAB17ACB93E001A4DBB /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +95,7 @@
 		FF7E5A9A17ACB93E001A4DBB = {
 			isa = PBXGroup;
 			children = (
+				FF7E5AE117ACB967001A4DBB /* icon.png */,
 				FF7E5AAC17ACB93E001A4DBB /* MyTweet */,
 				FF7E5AD017ACB93E001A4DBB /* MyTweetTests */,
 				FF7E5AA517ACB93E001A4DBB /* Frameworks */,
@@ -106,6 +115,8 @@
 		FF7E5AA517ACB93E001A4DBB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FF7E5AE517ACBD4B001A4DBB /* Accounts.framework */,
+				FF7E5AE317ACBD3E001A4DBB /* Social.framework */,
 				FF7E5AA617ACB93E001A4DBB /* UIKit.framework */,
 				FF7E5AA817ACB93E001A4DBB /* Foundation.framework */,
 				FF7E5AAA17ACB93E001A4DBB /* CoreGraphics.framework */,
@@ -236,6 +247,7 @@
 				FF7E5ABB17ACB93E001A4DBB /* Default@2x.png in Resources */,
 				FF7E5ABD17ACB93E001A4DBB /* Default-568h@2x.png in Resources */,
 				FF7E5AC017ACB93E001A4DBB /* MainStoryboard.storyboard in Resources */,
+				FF7E5AE217ACB967001A4DBB /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

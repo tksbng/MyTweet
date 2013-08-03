@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Social/Social.h>
+#import <Accounts/Accounts.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
+
 
 @end
